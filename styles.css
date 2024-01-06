@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 35%;
+    height: auto;
+    background-color:#f8f8f8;
+    margin: 4rem auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: start;
+}
+
+.labelAndInputBox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3rem;
+    position: relative;
+}
+input {
+    padding: 1.2rem 1.5rem;
+    border: 1px solid #e3e3e3;
+    border-radius: 0.5rem;
+}
+
+.fa-circle-exclamation {
+    position: absolute;
+    left: 20rem;
+    top: 2.75rem;
+    color: red;
+    visibility: hidden;
+}
+
+.fa-circle-check {
+    position: absolute;
+    left: 20rem;
+    top: 2.75rem;
+    color: green;
+    visibility: hidden;
+}
+
+p {
+    color: red;
+    font-size: 0.7rem;
+    font-style: italic;
+}
+
+button {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+    border: none;
+    outline: none;
+}
